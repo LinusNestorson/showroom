@@ -1,6 +1,17 @@
 import React from "react";
+import Background from './Components_Main/Background.js'
+import './Main.css'
+import TextBox from './Components_Main/Textbox.js'
+
 
 function Main() {
-   return <h1>Portfolio</h1>
+   return (
+   <div className="mainBackground">
+       <Background />
+       <TextBox />
+   </div>
+   )
+
+
 }
 export default Main;

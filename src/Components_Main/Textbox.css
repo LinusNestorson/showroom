@@ -1,0 +1,20 @@
+.textbox {
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: 50;
+  color: white;
+}
+
+.developer {
+  font-size: 1.75em;
+  text-transform: uppercase;
+  font-weight: 50;
+  color: white;
+  margin-top: -25px;
+}
+
+.texts {
+  top: 50%;
+  position: absolute;
+  text-align: center;
+}
