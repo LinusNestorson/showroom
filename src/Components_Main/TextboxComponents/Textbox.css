@@ -2,6 +2,7 @@
   font-size: 3em;
   text-transform: uppercase;
   font-weight: 50;
+  letter-spacing: 5px;
   color: white;
 }
 
@@ -10,6 +11,7 @@
   text-transform: uppercase;
   font-weight: 50;
   color: white;
+  letter-spacing: 6px;
   margin-top: -25px;
 }
 
