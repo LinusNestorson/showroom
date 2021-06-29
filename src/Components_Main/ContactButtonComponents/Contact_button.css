@@ -1,0 +1,21 @@
+.contact {
+  position: absolute;
+  bottom: 25%;
+}
+
+.contactButton {
+  position: relative;
+  border: solid white 1px;
+  background: transparent;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2rem;
+  padding: 8px;
+  margin-top: 20px;
+  color: white;
+}
+
+.contactButton:hover {
+  background-color: whitesmoke;
+  opacity: 0.5;
+  color: black;
+}
