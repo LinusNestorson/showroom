@@ -4,12 +4,12 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <p className="name">A.Olsson</p>
-      <div className="navButtons">
-        <button className="buttons">Home</button>
-        <button className="buttons">About</button>
-        <button className="buttons">Projects</button>
-      </div>
+      <p className="name col-1">A.Olsson</p>
+        <div className='col-2'></div>
+        <button className="buttons col-3">Home</button>
+        <button className="buttons col-4">About</button>
+        <button className="buttons col-5">Projects</button>
+      
     </nav>
   );
 }
