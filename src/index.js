@@ -4,6 +4,7 @@ import "./Main.css";
 import Main from "./Main";
 import reportWebVitals from "./reportWebVitals";
 
+/* Method for rendering main page */
 ReactDOM.render(
   <React.StrictMode>
     <Main />

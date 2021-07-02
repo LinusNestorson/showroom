@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 
+/*Adds a footer at the end of the page. Contains links to extern pages*/
 const Footer = () => {
   return <div className = 'footer'>
        

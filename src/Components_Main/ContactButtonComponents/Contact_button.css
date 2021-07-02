@@ -1,8 +1,10 @@
+/* Sets style for the div that contains the contact-button.*/
 .contact {
   position: absolute;
-  bottom: 35%;
+  bottom: 30%;
 }
 
+/* Sets the style on the contact-button*/
 .contactButton {
   position: relative;
   border: solid white 1px;
@@ -15,8 +17,10 @@
   padding-bottom: 5px;
   margin-top: 20px;
   color: white;
+  cursor: pointer;
 }
 
+/* Sets the hover effects on the contact-button*/
 .contactButton:hover {
   background-color: whitesmoke;
   opacity: 0.5;
