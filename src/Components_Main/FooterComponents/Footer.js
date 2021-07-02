@@ -5,8 +5,8 @@ import "./Footer.css";
 const Footer = () => {
   return <div className = 'footer'>
        
-          <img className="linkedinImg" src="linkedIn.png" alt="LinkedIn" /> 
-          <img className="github" src="github.png" alt="GitHub" />
+          <a href= 'http://linkedin.com'> <img className="linkedinImg" src="linkedIn.png" alt="LinkedIn"/></a>
+          <a href= 'http://github.com'> <img className="github" src="github.png" alt="GitHub" /></a>
           </div>;
 };
 
