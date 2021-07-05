@@ -1,0 +1,8 @@
+/* Sets style for main background */
+.projectMainBackground {
+  width: 98%;
+  height: 98%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
