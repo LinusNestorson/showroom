@@ -1,8 +1,60 @@
 /* Sets style for main background */
-.projectMainBackground {
-  width: 98%;
-  height: 98%;
-  position: absolute;
+.mainContainer {
+  height: 75%;
+  width: 95%;
   display: flex;
-  justify-content: center;
+  top: 20%;
+  left: 2.5%;
+  text-align: center;
+  position: absolute;
+  gap: 2.5%;
+}
+
+.projectText {
+  position: absolute;
+  top: 32%;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: white;
+  font-family: "Cinzel", serif;
+  z-index: 2;
+}
+
+.firstProject {
+  position: relative;
+  height: 100%;
+  width: 33%;
+  border: 2px solid black;
+}
+.firstProject img {
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  z-index: 1;
+}
+.firstProject img:hover {
+  opacity: 1;
+}
+
+.secondProject {
+  position: relative;
+  height: 100%;
+  width: 33%;
+  border: 2px solid black;
+}
+.secondProject img {
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  z-index: 1;
+}
+.secondProject img:hover {
+  opacity: 1;
+}
+
+.thirdProject {
+  height: 100%;
+  width: 33%;
+  border: 2px solid black;
 }
