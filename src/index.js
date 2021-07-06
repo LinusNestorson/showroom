@@ -1,13 +1,16 @@
-import React from "react";
+import React, { Component } from "react";
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ReactDOM from "react-dom";
 import "./Main.css";
-import Main from "./Main";
+import App from "./App.js";
 import reportWebVitals from "./reportWebVitals";
 
 /* Method for rendering main page */
 ReactDOM.render(
   <React.StrictMode>
-    <Main />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );

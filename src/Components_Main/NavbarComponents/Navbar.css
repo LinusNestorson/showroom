@@ -57,18 +57,3 @@
   top: 50%;
   transform: translate(0, -50%);
 }
-/* Sets style for buttons inside navbar */
-.buttons {
-  font-size: 1.5rem;
-  margin: 1%;
-  background: transparent;
-  border: none;
-  font-family: "Courier New", Courier, monospace;
-  cursor: pointer;
-}
-/* Sets hover effect for buttons */
-.buttons:hover {
-  background-color: whitesmoke;
-  opacity: 0.5;
-  color: black;
-}
