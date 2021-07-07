@@ -9,19 +9,34 @@ function ProjectMain() {
   return (
     <div className="mainContainer">
       <div className="project">
-        <a
-          href="https://giraffefansite.wordpress.com/"
+        <p className="projectText">Giraffe Sanctuary</p>
+
+        <Link
+          className="projectButton"
+          to={{
+            pathname: "https://giraffefansite.wordpress.com/",
+          }}
           target="_blank"
-          rel="noreferrer"
         >
-          <p className="projectText">Giraffe Sanctuary</p>
-          <button className="projectButton">View</button>
-          <img
-            className="giraffeImg"
-            src="giraffe5.png"
-            alt="Screenshot of giraffe"
-          ></img>
-        </a>
+          View
+        </Link>
+
+        <div className="techniques">
+          <Popup
+            contentStyle={{ fontFamily: "Cinzel" }}
+            trigger={<button className="techniqueButton">Techniques</button>}
+            position="center"
+          >
+            <p className="popupText">
+              <ul>
+                <li>React</li>
+                <li>HTML5</li>
+                <li>CSS</li>
+              </ul>
+            </p>
+          </Popup>
+        </div>
+        <img className="giraffeImg" src="giraffe5.png" alt="giraffes"></img>
       </div>
 
       <div className="project">
@@ -89,4 +104,6 @@ function ProjectMain() {
 }
 
 export default ProjectMain;
-/*https://giraffefansite.wordpress.com/*/
+/*https://giraffefansite.wordpress.com/
+ <p className="projectText">Giraffe Sanctuary</p>
+*/
