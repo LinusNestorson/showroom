@@ -5,14 +5,15 @@ import "reactjs-popup/dist/index.css";
 import { send } from "emailjs-com";
 import { useState } from "react";
 
+/*Logic for sending email to page owner*/
 function SendMail() {
   const [toSend, setToSend] = useState({
     from_name: "",
-    to_name: "",
+
     message: "",
     reply_to: "",
   });
-
+  /*render ID:s to connect to correct email*/
   const onSubmit = (e) => {
     e.preventDefault();
     send(
@@ -48,24 +49,18 @@ function SendMail() {
               value={toSend.from_name}
               onChange={handleChange}
             />
-            <input
-              type="text"
-              name="to_name"
-              placeholder="to name"
-              value={toSend.to_name}
-              onChange={handleChange}
-            />
+
             <input
               type="text"
               name="message"
-              placeholder="Your message"
+              placeholder="your message"
               value={toSend.message}
               onChange={handleChange}
             />
             <input
               type="text"
               name="reply_to"
-              placeholder="Your email"
+              placeholder="name@example.com"
               value={toSend.reply_to}
               onChange={handleChange}
             />
