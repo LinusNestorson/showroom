@@ -5,6 +5,7 @@ import ProjectMain from "./ProjectMain.js";
 import AboutMain from "./AboutMain.js";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Footer from "./Components_Main/FooterComponents/Footer.js";
+/* Main app function for rendering */
 function App() {
   return (
     <Router>

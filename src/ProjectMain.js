@@ -4,10 +4,9 @@ import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 import { Link } from "react-router-dom";
 
-/* Function for generating components */
+/* Function for Showing content of Project page*/
 function ProjectMain() {
   return (
-    
     <div className="mainContainer">
       <div className="project">
         <p className="projectText">Giraffe Sanctuary</p>
@@ -105,6 +104,3 @@ function ProjectMain() {
 }
 
 export default ProjectMain;
-/*https://giraffefansite.wordpress.com/
- <p className="projectText">Giraffe Sanctuary</p>
-*/

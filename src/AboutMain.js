@@ -4,6 +4,7 @@ import "./ProjectMain.css";
 import { render } from "react-dom";
 import { LoremIpsum } from "react-lorem-ipsum";
 
+/* Contains things for about page */
 function AboutMain() {
   return (
     <div className="aboutContainter">

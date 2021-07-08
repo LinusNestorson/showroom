@@ -34,6 +34,7 @@ function SendMail() {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
 
+  /*Render button and popup contact form*/
   return (
     <div className="contact">
       <Popup
@@ -45,7 +46,7 @@ function SendMail() {
             <input
               type="text"
               name="from_name"
-              placeholder="from name"
+              placeholder="your name"
               value={toSend.from_name}
               onChange={handleChange}
             />
@@ -60,7 +61,7 @@ function SendMail() {
             <input
               type="text"
               name="reply_to"
-              placeholder="name@example.com"
+              placeholder="yourname@mail.com"
               value={toSend.reply_to}
               onChange={handleChange}
             />

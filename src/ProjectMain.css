@@ -1,4 +1,4 @@
-/* Sets style for main background */
+/* Sets style for main container*/
 .mainContainer {
   height: 78%;
   width: 95%;
@@ -9,7 +9,7 @@
   position: absolute;
   gap: 2.5%;
 }
-
+/* Sets style for project text*/
 .projectText {
   position: absolute;
   top: 33%;
@@ -21,24 +21,25 @@
   font-family: "Cinzel", serif;
   z-index: 2;
 }
-
+/* Sets style for project*/
 .project {
   position: relative;
   height: 100%;
   width: 33%;
   border: 2px solid black;
 }
-
+/* Sets style for project image*/
 .project img {
   height: 100%;
   width: 100%;
   opacity: 0.7;
   z-index: 1;
 }
-
+/* Sets hover effect for project image*/
 .project img:hover {
   opacity: 1;
 }
+/* Sets style for project button*/
 .projectButton {
   text-decoration: none;
   position: absolute;
@@ -55,13 +56,13 @@
   cursor: pointer;
   z-index: 2;
 }
-
+/* Sets style for project text*/
 .projectButton:hover {
   background-color: whitesmoke;
   opacity: 0.5;
   color: black;
 }
-
+/* Sets style for technique button*/
 .techniqueButton {
   position: absolute;
   top: 60%;
@@ -84,13 +85,15 @@
   opacity: 0.5;
   color: black;
 }
+
+/* Sets style for project popup text*/
 .popupText {
   font-size: 1.5rem;
   text-align: left;
   font-family: "Cinzel", serif;
   line-height: 2.5rem;
 }
-
+/* Sets style for project popup content*/
 .popup-content {
   background: antiquewhite;
 }
