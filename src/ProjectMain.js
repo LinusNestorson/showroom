@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 /* Function for generating components */
 function ProjectMain() {
   return (
+    
     <div className="mainContainer">
       <div className="project">
         <p className="projectText">Giraffe Sanctuary</p>
