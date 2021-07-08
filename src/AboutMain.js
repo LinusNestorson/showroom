@@ -8,7 +8,7 @@ function AboutMain() {
   return (
     <div className="aboutContainter">
       <div className="pictureContainer">
-        <img src="forest.jpg" alt="Beautiful Forest"></img>
+        <img src="human.png" alt="Beautiful Forest"></img>
       </div>
       <div className="textContainer">
         <h2 className="headerStyle">About Anna</h2>
