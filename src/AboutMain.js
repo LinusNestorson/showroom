@@ -3,6 +3,7 @@ import "./AboutMain.css";
 import "./ProjectMain.css";
 import { render } from "react-dom";
 import { LoremIpsum } from "react-lorem-ipsum";
+import { Link } from "react-router-dom";
 
 /* Contains things for about page */
 function AboutMain() {
@@ -22,6 +23,9 @@ function AboutMain() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
+        <Link to="./CV.pdf" target="_blank" download>
+          <button className="contactButton">Download CV</button>
+        </Link>
       </div>
     </div>
   );

@@ -52,3 +52,33 @@
   margin-left: 5%;
   text-align: justify;
 }
+
+.contact {
+  position: absolute;
+  bottom: 30%;
+  left: 20%;
+}
+
+/* Sets the style on the contact-button*/
+.contactButton {
+  position: relative;
+  border: solid black 1px;
+  background: transparent;
+  font-family: "Cinzel", serif;
+  font-size: 1.2rem;
+  padding-right: 17px;
+  padding-left: 17px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 35%;
+  margin-top: 10%;
+  color: grey;
+  cursor: pointer;
+}
+
+/* Sets the hover effects on the contact-button*/
+.contactButton:hover {
+  background-color: whitesmoke;
+  opacity: 0.5;
+  color: black;
+}
