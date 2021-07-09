@@ -36,7 +36,7 @@ function SendMail() {
 
   /*Render button and popup contact form*/
   return (
-    <div className="contact">
+    <div className="sendContact">
       <Popup
         trigger={<button className="sendContactButton">Contact</button>}
         position="right center"

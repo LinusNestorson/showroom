@@ -54,12 +54,6 @@
   text-align: justify;
 }
 
-.contact {
-  position: absolute;
-  bottom: 30%;
-  left: 20%;
-}
-
 /* Sets the style on the contact-button*/
 .contactButton {
   position: relative;
